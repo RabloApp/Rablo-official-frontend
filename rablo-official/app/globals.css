@@ -8,10 +8,10 @@ body {
 @layer utilities {
 
   .nav-button1 {
-    @apply font-semibold text-[16px] leading-[18px] text-center bg-[#5E42BB] text-white px-[30px] py-[15px] rounded-[8px];
+    @apply font-semibold text-[1.2vw] leading-[0.94vw] text-center text-[#5E42BB] bg-transparent border border-[#5E42BB] px-[1.8vw] py-[1.7vh] rounded-[0.42vw];
   }
   
   .nav-button2 {
-    @apply font-semibold text-[16px] leading-[18px] text-center text-[#5E42BB] bg-transparent border border-[#5E42BB] px-[30px] py-[15px] rounded-[8px];
+    @apply font-semibold text-[1.2vw] leading-[0.94vw] text-center bg-[#5E42BB] text-white px-[2vw] py-[1.8vh] rounded-[0.42vw];
   }
 }
