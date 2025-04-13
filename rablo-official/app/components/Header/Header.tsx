@@ -9,7 +9,7 @@ const Header = () => {
       <ul className="flex gap-[1.7vw]">
         {navMidItems.map((item, index) => {
           return (
-            <Link key={index} href="#" className="text-[1.2vw]">
+            <Link key={index} href={item.path} className="text-[1.2vw]">
               {item.label}
             </Link>
           );
@@ -21,15 +21,16 @@ const Header = () => {
           return (
             <div key={index}>
               {item.button ? (
-                <button
+                <Link
+                  href={item.path}
                   className={`cursor-pointer ${
                     item.label === "Sign up" ? "nav-button2" : "nav-button1"
                   }`}
                 >
                   {item.label}
-                </button>
+                </Link>
               ) : (
-                <Link href="#" className="text-[1.2vw]">{item.label}</Link>
+                <Link href={item.path} className="text-[1.2vw]">{item.label}</Link>
               )}
             </div>
           );

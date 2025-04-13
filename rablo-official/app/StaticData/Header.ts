@@ -5,19 +5,19 @@ export const navMidItems = [
   },
   {
     label: "How Does it Work?",
-    path: "",
+    path: "/",
   },
   {
     label: "Success Stories",
-    path: "",
+    path: "/",
   },
   {
     label: "Pricing",
-    path: "",
+    path: "/",
   },
   {
     label: "Support",
-    path: "",
+    path: "/",
   },
 ];
 
