@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import AccCompo from './AccCompo'
-const accordian = () => {
+const Faq = () => {
   return (
     <div className='w-full flex flex-col items-center justify-center p-[6.25vw] gap-[4.17vw]'>
       
@@ -16,4 +16,4 @@ const accordian = () => {
   )
 }
 
-export default accordian;
+export default Faq;
