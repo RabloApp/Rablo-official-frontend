@@ -1,20 +1,20 @@
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
-import JoinOption from "./JoinOption/JoinOption";
+import ExploreTutors from "./ExploreTutors/ExploreTutors";
 import Platform from "./Platform/Platform";
 import Faq from "./FAQ/Faq";
-import Testimonails from "./Testimonials/Testimonials";
+import JoinOption from "./JoinOption/JoinOption";
+import Testimonials from "./Testimonials/Testimonials";
 
 const MainSection = () => {
   return (
     <main>
       <HeroSection />
-      <Testimonails/>
-      <Platform/>
-      <Faq/>
-      <JoinOption/>
-      
-      
+      <ExploreTutors />
+      <Testimonials />
+      <Platform />
+      <Faq />
+      <JoinOption />
     </main>
   );
 };
