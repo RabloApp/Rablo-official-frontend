@@ -4,13 +4,18 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="w-full h-full flex gap-[40px]  p-[6.3vw]">
-      <div className="w-[50vw] flex flex-col gap-[48px] mt-[3.65vw] p-[0.83vw]">
-        <div className="bg-[url(/mainSection/images/Ellipse.svg)]">
+      <div className="w-[50vw] flex flex-col gap-[48px] mt-[3.65vw] p-[0.83vw] relative">
+  <div
+    className="-z-10 bg-[url(/mainSection/images/Ellipse.svg)] w-130 h-130 rounded-full absolute -top-40 left-0 opacity-70 bg-cover bg-no-repeat"
+    style={{
+      maskImage: 'linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)',
+      WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)',
+    }}
+  ></div>
         <h1 className="font-[400] text-[4.17vw]">
           Be <span className="font-semibold border-b-2">Discovered</span> by the
           Right <span className="font-semibold border-b-2">Students</span>.
         </h1>
-        </div>
         <p className="w-[48.96vw] text-[1.2vw] leading-[1.82vw]">
           Join a thriving network of dedicated tutors. Find students, organize
           batches effortlessly, and teach on your terms with the tools you need
