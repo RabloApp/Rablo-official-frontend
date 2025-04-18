@@ -5,18 +5,7 @@ import Accordian from "./components/FAQ/Faq";
 import Platform from "./components/Platform/Platform";
 import "./globals.css";
 export default function Home() {
-  return (
-    
-    <main className="w-[100vw]">
-      <MainSection/>
-      <Platform/>
-      <Accordian/>
-      <JoinOption/>
-      <Footer/>
-      
-    </main>
-    
-   
-    
-  );
+
+  return <MainSection />;
+
 }
