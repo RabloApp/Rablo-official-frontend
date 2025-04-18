@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import WorkSection from "./WorkSection/WorkSection";
 
 const MainSection = () => {
   return (
-    <div className='w-full h-[100vh] section-container bg-[url(/header/images/backgroundImg.png)] bg-center bg-cover bg-no-repeat'>
+    <main>
+      <WorkSection />
+    </main>
+  );
+};
 
-    </div>
-  )
-}
-
-export default MainSection
+export default MainSection;
