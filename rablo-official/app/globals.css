@@ -1,5 +1,3 @@
-@import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"); /*Poppins font*/
 
 body {
   font-family: "Poppins", sans-serif;
@@ -115,10 +113,13 @@ body {
   }
 
   .nav-button1 {
-    @apply font-semibold text-[1.1vw] leading-[0.94vw] text-center text-white bg-[#5271FF] px-[2vw] py-[0.8vw] rounded-[0.42vw];
+
+    @apply font-semibold text-[1.2vw] leading-[0.94vw] text-center text-[#5271FF] bg-transparent border border-[#5271FF] px-[1.8vw] py-[1.7vh] rounded-[0.42vw];
   }
 
   .nav-button2 {
     @apply font-semibold text-[1.1vw] leading-[0.94vw] text-center bg-white text-black border border-[#5271FF] px-[2vw] py-[0.8vw] rounded-[0.42vw];
+
   }
+  
 }
