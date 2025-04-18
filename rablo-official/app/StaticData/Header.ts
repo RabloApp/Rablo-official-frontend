@@ -8,24 +8,24 @@ export const navMidItems = [
     path: "/",
   },
   {
-    label: "Success Stories",
+    label: "Benefits",
     path: "/",
   },
   {
-    label: "Pricing",
+    label: "Testimonials",
     path: "/",
   },
   {
     label: "Support",
     path: "/",
   },
+  {
+    label: "About us",
+    path: "/",
+  },
 ];
 
 export const navRightItems = [
-  {
-    label: "Teach on Rablo",
-    path: "/",
-  },
   {
     label: "Log in",
     path: "/",

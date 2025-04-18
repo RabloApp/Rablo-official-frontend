@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "./HeroSection/HeroSection";
+import JoinOption from "./JoinOption/JoinOption";
+import Platform from "./Platform/Platform";
+import Faq from "./FAQ/Faq";
+import Testimonails from "./Testimonials/Testimonials";
 
 const MainSection = () => {
   return (
-    <div className='w-full h-[100vh] section-container bg-[url(/header/images/backgroundImg.png)] bg-center bg-cover bg-no-repeat'>
+    <main>
+      <HeroSection />
+      <Testimonails/>
+      <Platform/>
+      <Faq/>
+      <JoinOption/>
+      
+      
+    </main>
+  );
+};
 
-    </div>
-  )
-}
-
-export default MainSection
+export default MainSection;
