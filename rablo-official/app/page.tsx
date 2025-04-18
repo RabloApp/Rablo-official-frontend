@@ -5,7 +5,5 @@ import Accordian from "./components/MainSection/FAQ/Faq";
 import Platform from "./components/MainSection/Platform/Platform";
 import "./globals.css";
 export default function Home() {
-
   return <MainSection />;
-
 }
