@@ -10,7 +10,7 @@ const Benefits = () => {
       {/* Decorative background shapes at bottom left */}
       <div className='absolute bottom-[-2vw] left-[3vw] flex flex-col z-0'>
         <Image src="/mainSection/images/circle.svg" width={0} height={0} alt='circle' className='mb-[-1vw] w-[8.33vw] h-[8.33vw]' />
-        <Image className='mt-[-1.33vw] ml-[-1.56vw] w-[6vw] h-[6vw]' src="/mainSection/images/shapes.svg" width={0} height={0} alt='shapes' />
+        <Image className='mt-[-1.33vw] ml-[-1.56vw] w-[6vw] h-[6vw]' src="/mainSection/images/Shapes.svg" width={0} height={0} alt='shapes' />
       </div>
 
       {/* Title */}

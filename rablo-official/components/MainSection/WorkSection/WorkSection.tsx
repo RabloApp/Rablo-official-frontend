@@ -1,38 +1,68 @@
+import Image from "next/image";
 import React from "react";
 
 const WorkSection = () => {
   return (
-    <div className="w-[87.86vw]  mx-auto relative mb-4" >
-        <img src="/Background Shapes.png" alt="bgImage" />
-      <div className="font-bold text-center text-3xl p-3 absolute top-[3rem] left-[35vw]">
-        How does it work ?
+    <section className="w-[87.86vw] mx-auto mb-24 relative">
+      <Image
+        src="/BackgroundShapes.png"
+        alt="bgImage"
+        fill
+        className="absolute top-0 left-0 w-[100vw] h-[18.75vw] -z-10 object-contain"
+      />
+      <h2 className="font-bold text-center text-3xl py-8">How does it work?</h2>
+
+      <div className="relative flex flex-col items-center gap-[4.167vw]">
+        <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw] z-10">
+          <Image
+            src="/Ellipse 3.png"
+            className="mx-auto mt-2 object-contain"
+            alt="magnifying"
+            width={100}
+            height={100}
+          />
+          <p className="font-bold mt-3 text-[1.667vw]">Search</p>
+          <p className="mt-2 text-[1.25vw]">
+            Find a tutor by subject or specific need.
+          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row justify-center gap-8 md:mt-[-3rem]">
+          <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw]">
+            <Image
+              src="/Frame 50.png"
+              className="h-[7vh] mx-auto mt-3"
+              alt="frame"
+              width={100}
+              height={100}
+            />
+            <p className="font-bold mt-3 text-[1.667vw]">Connect</p>
+            <p className="mt-2 text-[1.25vw]">
+              Chat or call to discuss availability and goals.
+            </p>
+          </div>
+
+          <div className="relative w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw]">
+            <Image
+              src="/Frame 50 (1).png"
+              className="h-[7vh] mx-auto mt-3"
+              alt="frame2"
+              width={100}
+              height={100}
+            />
+            <p className="font-bold mt-3 text-[1.667vw]">Learn</p>
+            <p className="mt-2 text-[1.25vw]">
+              Start lessons and track your progress overtime.
+            </p>
+            <img
+              src="/Shapes.png"
+              className="w-[5vw] h-[5vw] absolute bottom-[1vw] right-[-5vw]"
+              alt="shape"
+            />
+          </div>
+        </div>
       </div>
-      <div className="absolute top-[7.78vw] left-[17.57vw]">
-      <div
-        className="w-[25vw] h-[22vh] rounded-xl mx-auto mt-5 bg-[#D2DAFF] p-2 "
-      >
-        <img src="/Ellipse 3.png" className=" h-[5vh] mx-auto mt-2" alt="magnifying" />
-        <p className="w-fit mx-auto font-bold mt-3 text-xl">Search</p>
-        <p className="w-fit mx-auto  mt-2 ">Find a tutor by subject or specific need.</p>
-        </div>
-      
-      <div className="flex w-fit mx-auto gap-8 mt-4 pb-12">
-        <div className="w-[30vw] h-[22vh] rounded-xl mt-5 bg-[#D2DAFF]">
-          <img src="/Frame 50.png" className="h-[7vh] mx-auto mt-3" alt="frame" />
-          <p className="w-fit mx-auto font-bold mt-3 text-xl">Connect</p>
-          <p className="w-fit mx-auto  mt-2 ">Chat or call to discuss availability and goals.</p>
-        </div>
-        <div className="flex relative">
-        <div className="w-[30vw] h-[22vh] rounded-xl mt-5 bg-[#D2DAFF]">
-          <img src="/Frame 50 (1).png" className="h-[7vh] mx-auto mt-3" alt="fame2" />
-          <p className="w-fit mx-auto font-bold mt-3 text-xl">Learn</p>
-          <p className="w-fit mx-auto  mt-2 ">Start lessons and track your progress overtime.</p>
-        </div>
-        <img src="/Shapes.png" className="h-[5vw] w-[5vw] absolute bottom-[1vw] right-[-4.8vw]" alt="shape" />
-        </div>
-      </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
