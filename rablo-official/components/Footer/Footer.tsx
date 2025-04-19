@@ -7,10 +7,9 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#5271FF]  text-white py-[3.49vw] px-[6.88vw] '>
+    <div className='w-full bg-[#5271FF] font-[Poppins] text-white py-[3.49vw] px-[6.88vw] '>
       <div className='w-[86.25vw] mx-auto '>
       <div className='w-[85%]  flex flex-col md:flex-row justify-between pb-[10px]'>
-        {/* Left Section */}
         <div className='md:w-1/3 mb-6 md:mb-0'>
           
           <p className='text-white text-[1.25vw] font-[400]'>
@@ -19,9 +18,7 @@ const Footer = () => {
           </p>
         </div>
         
-        {/* Right Section */}
         <div className='flex flex-col md:flex-row gap-10 md:gap-[20]'>
-          {/* Product */}
           <div>
             <h2 className='text-[1.25vw] font-[600] mb-[1.04vw]'>Company</h2>
             <ul className='space-y-[1.04vw] text-[1.04vw]'>
@@ -31,7 +28,6 @@ const Footer = () => {
               
             </ul>
           </div>
-          {/* Support */}
           <div>
             <h2 className='text-[1.25vw] font-[600] mb-[1.04vw]'>Support</h2>
             <ul className='space-y-[1.04vw] text-[1.04vw]'>
