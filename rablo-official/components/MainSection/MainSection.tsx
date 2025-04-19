@@ -5,6 +5,7 @@ import ExploreTutors from "./ExploreTutors/ExploreTutors";
 import Platform from "./Platform/Platform";
 import Faq from "./FAQ/Faq";
 import JoinOption from "./JoinOption/JoinOption";
+import Benefits from "./Benefits/Benefits";
 import Testimonials from "./Testimonials/Testimonials";
 
 const MainSection = () => {
@@ -12,6 +13,7 @@ const MainSection = () => {
     <main>
       <HeroSection />
       <WorkSection/>
+      <Benefits/>
       <ExploreTutors />
       <Testimonials />
       <Platform />

@@ -1,7 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-const Platform = () => {
+
+
+
+
+// Platform = ({ref} : any) 
+const Platform = ()  => {
   return (
     <div className='w-full  py-[50px] relative'>
         <div className="absolute left-[93.30vw] w-[5.21vw] h-[5.21vw] mt-[1vw]">

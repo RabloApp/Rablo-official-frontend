@@ -2,6 +2,7 @@ export const navMidItems = [
   {
     label: "Home",
     path: "/",
+
   },
   {
     label: "How Does it Work?",
