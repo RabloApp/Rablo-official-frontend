@@ -6,7 +6,9 @@ const ExploreTutors = () => {
   return (
     <div className="flex flex-col p-[6.25vw] gap-[5vw] relative">
       {/* <div className="flex text-center"> */}
-      <p className="font-[Merriweather] font-bold text-[2.5vw] text-center underline">Master concepts with masterminds</p>
+      <p className="font-[Merriweather] font-bold text-[2.5vw] text-center underline">
+        Master concepts with masterminds
+      </p>
       {/* <div className="w-[36.458vw] relative">
           <Image
             src="/mainSection/icons/Search.svg"
@@ -33,13 +35,15 @@ const ExploreTutors = () => {
       <div className="flex gap-[4.167vw] relative">
         {tutors.map((tutor, index) => (
           <div key={index} className="w-[26.406vw] relative">
-            <Image
-              src={tutor.image}
-              alt={tutor.name}
-              width={200}
-              height={20}
-              className="rounded-lg absolute top-0 right-0"
-            />
+            <div className="rounded-lg absolute top-0 right-0 w-[12.5vw] h-[12.5vw] overflow-hidden">
+              <Image
+                src={tutor.image}
+                alt={tutor.name}
+                fill
+                className="object-cover"
+              />
+            </div>
+
             <div className="h-[20.625vw] py-[2.083vw] px-[1.25vw] bg-[#EBEFFF] mt-[6.25vw] flex flex-col gap-[2vw] font-[Poppins]">
               <p className="text-[1.667vw] font-semibold">{tutor.name}</p>
               <p className="text-[1.25vw]">{tutor.occupation}</p>
