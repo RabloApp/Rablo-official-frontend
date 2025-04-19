@@ -32,7 +32,7 @@ const Platform = ()  => {
                 <Image src="/Platform/images/logo1.svg" alt="Platform" width={200} height={174}/>
                 <Image src="/Platform/images/logo2.svg" alt="Platform" width={190} height={141} />
             </div>
-            <Link href="/join" className='nav-button2 font-[Poppins]'>
+            <Link href="/join" className='nav-button2 w-[12.5vw] p-[1.25vw] font-[Poppins] text-[0.833vw] font-semibold'>
                 Join Us Now
             </Link>
         </div>
