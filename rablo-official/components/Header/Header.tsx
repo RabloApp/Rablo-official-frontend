@@ -1,19 +1,19 @@
 import Image from "next/image";
 import React from "react";
-import { navMidItems, navRightItems } from "@/app/StaticData/Header";
+import { navMidItems, navRightItems } from "@/StaticData/Header";
 import Link from "next/link";
 const Header = () => {
   return (
-    <div className="w-full h-[6.4vw] px-[4.22vw] py-[0.83vw] bg-[#FFFFFF] flex justify-between items-center">
+    <div className="w-full h-[6.4vw] px-[4.22vw] py-[0.83vw] bg-[#FFFFFF] flex justify-between items-center font-[Poppins]">
       <Image src="/header/images/logo.svg" width={167} height={60} alt="Logo" />
       <div className="flex justify-between items-center gap-[4.8vw]">
-      <ul className="flex gap-[2.08vw]">
+      <ul className="flex gap-[2.08vw] ">
         {navMidItems.map((item, index) => {
           return (
             <Link
               key={index}
               href={item.path}
-              className="text-[1.1vw] font-semibold"
+              className="text-[1.1vw] font-medium"
             >
               {item.label}
             </Link>
