@@ -1,4 +1,5 @@
 import React from "react";
+import WorkSection from "./WorkSection/WorkSection";
 import HeroSection from "./HeroSection/HeroSection";
 import ExploreTutors from "./ExploreTutors/ExploreTutors";
 import Platform from "./Platform/Platform";
@@ -11,7 +12,11 @@ const MainSection = () => {
   return (
     <main>
       <HeroSection />
+<<<<<<< HEAD
       <Benefits/>
+=======
+      <WorkSection/>
+>>>>>>> a739a90f18195bd723748aa54ca64e9e2a880365
       <ExploreTutors />
       <Testimonials />
       <Platform />
