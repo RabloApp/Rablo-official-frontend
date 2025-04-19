@@ -3,6 +3,7 @@ import React from "react";
 import { navMidItems, navRightItems } from "@/app/StaticData/Header";
 import Link from "next/link";
 const Header = () => {
+  
   return (
     <div className="w-full h-[6.4vw] px-[4.22vw] py-[0.83vw] bg-[#FFFFFF] flex justify-between items-center">
       <Image src="/header/images/logo.svg" width={167} height={60} alt="Logo" />

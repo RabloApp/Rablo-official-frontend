@@ -22,10 +22,10 @@ const HeroSection = () => {
           to succeed.
         </p>
         <div className="w-[28.54vw] h-[2.92vh] flex items-center gap-[24px] ">
-          <button className="w-[13.65vw]  text-white font-semibold bg-[#5271FF] rounded-[8px] py-3">
+          <button className="w-[13.65vw] cursor-pointer text-white font-semibold bg-[#5271FF] rounded-[8px] py-3">
             Sign up for free
           </button>
-          <button className="w-[13.65vw] text-black font-semibold border border-[#5271FF] rounded-[8px] py-3 ">
+          <button className="w-[13.65vw] cursor-pointer text-black font-semibold border border-[#5271FF] rounded-[8px] py-3 ">
             Get a demo
           </button>
         </div>
