@@ -1,4 +1,5 @@
 import React from "react";
+import WorkSection from "./WorkSection/WorkSection";
 import HeroSection from "./HeroSection/HeroSection";
 import ExploreTutors from "./ExploreTutors/ExploreTutors";
 import Platform from "./Platform/Platform";
@@ -10,6 +11,7 @@ const MainSection = () => {
   return (
     <main>
       <HeroSection />
+      <WorkSection/>
       <ExploreTutors />
       <Testimonials />
       <Platform />
