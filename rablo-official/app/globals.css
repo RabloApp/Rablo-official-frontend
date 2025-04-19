@@ -1,13 +1,11 @@
 @import "tailwindcss";
 
-
 @layer utilities {
   .nav-button1 {
-    @apply font-semibold text-[1.2vw] leading-[0.94vw] text-center bg-[#5271FF] text-white border border-[#5271FF] px-[1.8vw] py-[1.7vh] rounded-[0.42vw];
+    @apply leading-[0.94vw] text-center bg-[#5271FF] text-white border border-[#5271FF] hover:opacity-70 transition duration-300 rounded-[0.42vw];
   }
 
   .nav-button2 {
-    @apply font-semibold text-[1.1vw] leading-[0.94vw] text-center bg-white border border-[#5271FF] px-[2vw] py-[0.8vw] rounded-[0.42vw];
+    @apply leading-[0.94vw] text-center bg-white border border-[#5271FF] hover:bg-[#C0C6E7] transition duration-300 rounded-[0.42vw];
   }
-
 }
