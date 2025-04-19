@@ -85,7 +85,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import {tutors} from "@/app/StaticData/Benefits"
+import {tutors, students} from "@/StaticData/Benefits"
 
 const Benefits = () => {
   return (
@@ -117,8 +117,6 @@ const Benefits = () => {
               )
             })
            }
-           
-        
           </div>
         </div>
 
@@ -126,18 +124,16 @@ const Benefits = () => {
         <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw]'>
           <h2 className='font-bold text-[1.7vw]'>For Students</h2>
           <div>
-            <div className='flex items-center gap-[0.9vw] p-[0.5vw]'>
-              <Image src="/mainSection/images/Icon4.svg" width={48} height={48} alt='icon' />
-              <p className='text-[1.25vw] font-medium'>Verified Tutors</p>
+            {
+              students.map((item, index)=>{
+                return(
+                  <div className='flex items-center gap-[0.9vw] p-[0.5vw]'>
+              <Image src={item.image} width={48} height={48} alt='icon' />
+              <p className='text-[1.25vw] font-medium'>{item.label}</p>
             </div>
-            <div className='flex items-center gap-[0.9vw] p-[0.5vw]'>
-              <Image src="/mainSection/images/Icon5.svg" width={48} height={48} alt='icon' />
-              <p className='text-[1.25vw] font-medium'>Flexible Scheduling</p>
-            </div>
-            <div className='flex items-center gap-[0.9vw] p-[0.5vw]'>
-              <Image src="/mainSection/images/Icon6.svg" width={48} height={48} alt='icon' />
-              <p className='text-[1.25vw] font-medium'>One on one support</p>
-            </div>
+                )
+              })
+            }
           </div>
         </div>
 
