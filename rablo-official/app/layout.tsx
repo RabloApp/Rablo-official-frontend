@@ -1,9 +1,22 @@
 import type { Metadata } from "next";
-
+import { Poppins, Merriweather } from "next/font/google"
 import "./globals.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
+export const poppins = Poppins({
+    weight: ['400', '500', '600', '700'],
+    variable: '--font-poppins',
+    subsets: ['latin'],
+    display: 'swap',
+})
+
+export const merriweather = Merriweather({
+  weight: ['300', '400', '700'],
+  variable: '--font-merriweather',
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 
 export const metadata: Metadata = {
@@ -18,10 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`antialiased`}
-        suppressHydrationWarning
-      >
+      <body className={`${poppins.variable} ${merriweather.variable}`} suppressHydrationWarning>
         <Header />
         {children}
         <Footer />

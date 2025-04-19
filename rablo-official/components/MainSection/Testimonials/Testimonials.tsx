@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import TestimonialData from '@/app/StaticData/Testimonials'
+import TestimonialData from '@/StaticData/Testimonials'
 const Testimonails = () => {
   return (
     <div className='w-full p-[6.25vw] relative'>
