@@ -12,11 +12,8 @@ const MainSection = () => {
   return (
     <main>
       <HeroSection />
-<<<<<<< HEAD
-      <Benefits/>
-=======
       <WorkSection/>
->>>>>>> a739a90f18195bd723748aa54ca64e9e2a880365
+      <Benefits/>
       <ExploreTutors />
       <Testimonials />
       <Platform />
