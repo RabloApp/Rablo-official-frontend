@@ -15,7 +15,7 @@ const WorkSection = () => {
       <h2 className="font-bold text-center text-3xl py-8 font-[Merriweather]">How does it work?</h2>
 
       <div className="relative flex flex-col font-[Poppins] items-center gap-[4.167vw]">
-        <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw] z-10">
+        <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 text-center flex flex-col gap-[2.083vw] z-10 hover:shadow-xl">
           <Image
             src="/Ellipse 3.png"
             className="mx-auto mt-2 object-contain"
@@ -30,7 +30,7 @@ const WorkSection = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-8 md:mt-[2 rem]">
-          <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw]">
+          <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 text-center flex flex-col gap-[2.083vw] hover:shadow-xl">
             <Image
               src="/Frame 50.png"
               className="h-[7vh] mx-auto mt-3"
@@ -44,7 +44,7 @@ const WorkSection = () => {
             </p>
           </div>
 
-          <div className="relative w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw]">
+          <div className="relative w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 text-center flex flex-col gap-[2.083vw] hover:shadow-xl">
             <Image
               src="/Frame 50 (1).png"
               className="h-[7vh] mx-auto mt-3"
