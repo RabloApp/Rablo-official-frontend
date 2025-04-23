@@ -3,7 +3,7 @@ import Image from "next/image";
 import TestimonialData from "@/StaticData/Testimonials";
 const Testimonails = () => {
   return (
-    <div className="w-full p-[6.25vw] relative">
+    <div id="testimonials" className="w-full p-[6.25vw] relative">
       <Image
         src="/Testimonials/images/sideshape.svg"
         alt="shape"
@@ -34,7 +34,7 @@ const Testimonails = () => {
                 </div>
 
                 {/* right */}
-                <div className="flex flex-col w-[9.44vw] items-start justify-center gap-[0.83vw]">
+                <div className="flex flex-col w-[9.44vw] font-[Poppins] items-start justify-center gap-[0.83vw]">
                   <Image
                     src={"/Testimonials/images/quotes.svg"}
                     alt="quotes"

@@ -6,7 +6,7 @@ const CraftedForTutors: React.FC = () => {
   return (
     <section className="py-16 font-[Merriweather] px-6 max-w-7xl mx-auto">
       <div className="flex justify-center">
-        <p className="w-[26.354vw] text-[2.396vw] sm:text-4xl font-bold mb-2 text-center leading-[150%]">
+        <p className="w-[26.354vw] text-[2.396vw] sm:text-4xl font-bold mb-2 text-center">
           Craft
           <span className="underline decoration-[0.65vw] decoration-indigo-200">
             ed for Tutors of{" "}
@@ -29,10 +29,10 @@ const CraftedForTutors: React.FC = () => {
                 className="mx-auto"
               />
             </div>
-            <p className="text-[1.25vw] font-semibold mb-2 text-center leading-[100%]">
+            <p className="text-[1.25vw] font-semibold mb-2 text-center">
               {feature.title}
             </p>
-            <p className="text-[0.833vw] text-justify text-gray-700">
+            <p className="text-[1vw] text-justify text-gray-700">
               {feature.description}
             </p>
           </div>

@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 
 const HeroSection = () => {
+
   return (
-    <div className="w-full h-full flex gap-[40px] p-[6.3vw]">
+    <div id="home" className="w-full h-full flex gap-[40px] p-[6.3vw]" >
       <div className="w-[50vw] flex flex-col gap-[48px] mt-[3.65vw] p-[0.83vw] relative">
         <div
           className="-z-10 bg-[url(/mainSection/images/Ellipse.svg)] w-130 h-130 rounded-full absolute -top-40 left-0 opacity-70 bg-cover bg-no-repeat"

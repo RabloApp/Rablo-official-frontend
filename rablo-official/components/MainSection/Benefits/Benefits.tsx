@@ -4,8 +4,12 @@ import React from 'react'
 import {tutors, students} from "@/StaticData/Benefits"
 
 const Benefits = () => {
+
+
+
+
   return (
-    <div className='w-full h-[41.46vw] bg-[#5271FF80] flex flex-col justify-center items-center gap-[3.5vw] relative'>
+    <div id='benefits' className= 'w-full h-[41.46vw] bg-[#5271FF80] flex flex-col justify-center items-center gap-[3.5vw] relative'>
 
       {/* Decorative background shapes at bottom left */}
       <div className='absolute bottom-[-2vw] left-[3vw] flex flex-col z-0'>
@@ -14,10 +18,10 @@ const Benefits = () => {
       </div>
 
       {/* Title */}
-      <h1 className='font-bold text-[2.6vw] border-b-2 z-10'>Benefits of choosing Rablo</h1>
+      <h1 className='font-bold text-[2.6vw] font-[Merriweather] border-b-2 z-10'>Benefits of choosing Rablo</h1>
 
       {/* Boxes Container */}
-      <div className='w-[87.5vw] h-[21.46vw] flex justify-between gap-[4.4vw] z-10'>
+      <div className='w-[87.5vw] h-[21.46vw] font-[Poppins] flex justify-between gap-[4.4vw] z-10'>
 
         {/* Box 1 */}
         <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw] ml-[20px]'>

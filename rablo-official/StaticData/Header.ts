@@ -1,28 +1,28 @@
 export const navMidItems = [
   {
     label: "Home",
-    path: "/",
+    component: "home",
 
   },
   {
     label: "How Does it Work?",
-    path: "/",
+    component: "work",
   },
   {
     label: "Benefits",
-    path: "/",
+    component: "benefits",
   },
   {
     label: "Testimonials",
-    path: "/",
+    component: "testimonials",
   },
   {
     label: "Support",
-    path: "/",
+    component: "support",
   },
   {
     label: "About us",
-    path: "/",
+    component: "about",
   },
 ];
 
