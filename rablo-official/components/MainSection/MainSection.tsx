@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
 import WorkSection from "./WorkSection/WorkSection";
 import HeroSection from "./HeroSection/HeroSection";
 import ExploreTutors from "./ExploreTutors/ExploreTutors";
@@ -9,13 +10,15 @@ import Benefits from "./Benefits/Benefits";
 import Testimonials from "./Testimonials/Testimonials";
 import CraftedForTutors from "./CraftedForTutors/CraftedForTutors";
 
+
 const MainSection = () => {
+
   return (
     <main>
-      <HeroSection />
-      <CraftedForTutors />
+      <HeroSection/>
+      <CraftedForTutors/>
       <WorkSection/>
-      <Benefits/>
+      <Benefits />
       <ExploreTutors />
       <Testimonials />
       <Platform />
