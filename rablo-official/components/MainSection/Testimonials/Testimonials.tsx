@@ -21,15 +21,16 @@ const Testimonails = () => {
             return (
               <div
                 key={index}
-                className="w-[25.69vw] flex items-center justify-center gap-[3.75vw]  rounded-[0.83vw] border-[#EBEFFF] border-[0.05vw]"
+                className="group w-[25.69vw] flex items-center justify-center gap-[3.75vw]  rounded-[0.83vw] border-[#EBEFFF] border-[0.05vw]"
               >
                 {/* left */}
-                <div className="w-[12.76vw] h-[18.33vw] rounded-[1.04vw] overflow-hidden flex items-center justify-center">
+                <div className="w-[12.76vw] h-[18.33vw] rounded-[1.04vw] overflow-hidden flex items-center justify-center ">
                   <Image
                     src={item.pic}
                     alt="Testimonial"
                     width={240}
                     height={352}
+                    className=" grayscale group-hover:grayscale-0 transition-all duration-100 "
                   />
                 </div>
 
