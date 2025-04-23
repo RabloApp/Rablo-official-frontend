@@ -1,9 +1,9 @@
 import Image from "next/image";
-import React from "react";
+
 
 const WorkSection = () => {
   return (
-    <section className="w-[87.86vw] mx-auto mb-24 relative">
+    <section id="work" className="w-[87.86vw] mx-auto mb-24 relative">
       <div className="absolute top-0 left-0 w-[90vw] h-[18.75vw] -z-10 object-contain  overflow-hidden">
       <Image
         src="/BackgroundShapes.png"
@@ -12,9 +12,9 @@ const WorkSection = () => {
         className=""
       />
       </div>
-      <h2 className="font-bold text-center text-3xl py-8">How does it work?</h2>
+      <h2 className="font-bold text-center text-3xl py-8 font-[Merriweather]">How does it work?</h2>
 
-      <div className="relative flex flex-col items-center gap-[4.167vw]">
+      <div className="relative flex flex-col font-[Poppins] items-center gap-[4.167vw]">
         <div className="w-[41.667vw] h-[19.375vw] bg-[#D2DAFF] rounded-xl p-4 shadow-md text-center flex flex-col gap-[2.083vw] z-10">
           <Image
             src="/Ellipse 3.png"

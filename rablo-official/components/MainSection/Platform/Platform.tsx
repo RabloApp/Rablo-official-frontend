@@ -2,10 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 
-
-
-
-// Platform = ({ref} : any) 
+ 
 const Platform = ()  => {
   return (
     <div className='w-full  py-[50px] relative'>
