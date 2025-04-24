@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
+
 export const poppins = Poppins({
     weight: ['400', '500', '600', '700'],
     variable: '--font-poppins',
@@ -29,6 +30,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.variable} ${merriweather.variable}`} suppressHydrationWarning>
