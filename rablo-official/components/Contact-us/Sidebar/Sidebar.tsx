@@ -1,18 +1,21 @@
 import { sidebarData, sidebarIcons } from "@/StaticData/Sidebar";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="w-[27.34vw] h-[56.25vw] bg-[#0A66C2] p-[2.08vw] flex flex-col gap-[4.17vw] relative">
-      <div className="w-[14.53vw] flex gap-[1.3vw]">
-        <Image
-          src="/sidebar/images/arrow.svg"
-          className="w-[1.11vw] h-[1.11vw]"
-          width={0}
-          height={0}
-          alt=""
-        />
+    <div className="w-[27.34vw] bg-[#0A66C2] p-[2.08vw] flex flex-col gap-[4.17vw] relative">
+      <div className="w-[14.53vw] flex items-center gap-[1.6vw]">
+        <Link href="/">
+          <Image
+            src="/sidebar/images/arrow.svg"
+            className="w-[1.11vw] h-[1.11vw]"
+            width={0}
+            height={0}
+            alt=""
+          />
+        </Link>
         <Image
           src="/sidebar/images/logo.svg"
           className="w-[7.34vw] h-[1.67vw]"
