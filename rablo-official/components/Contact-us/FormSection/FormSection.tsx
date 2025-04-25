@@ -29,8 +29,8 @@ const FormSection = () => {
             <button type="submit" className='w-[38.13vw] h-[2.83vw] p-[0.81vw] bg-[#5271FF] rounded-[0.4vw] gap-[0.51vw] font-[600] text-[1.21vw] text-[#FFFFFF] '>Send</button>
 
         </form>
-        <div className='absolute right-[10.5vw] bottom-[13.30vw]  '>
-            <Image src="/Platform/images/Shapes.svg" alt="Contact us" width={75} height={75}  />
+        <div className='absolute right-[11.2vw] bottom-[14vw]  '>
+            <Image src="/Platform/images/Shapes.svg" alt="Contact us" width={100} height={100}  />
         </div>
 
     </div>
