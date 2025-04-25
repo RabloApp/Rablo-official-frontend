@@ -14,11 +14,11 @@ const CraftedForTutors: React.FC = () => {
           All Disciplines
         </p>
       </div>
-      <div className="py-[4.167vw] font-[Poppins] grid gap-[2.083vw] grid-cols-4">
+      <div className="py-[4.167vw] font-[Poppins] flex gap-[2.083vw]">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-[#EFF1FC] flex flex-col justify-between rounded-2xl shadow-sm hover:shadow-md transition-all text-left p-[1.563vw]"
+            className="bg-[#EFF1FC] flex flex-col gap-[1.458vw] rounded-2xl shadow-sm hover:shadow-md transition-all text-left py-[1.563vw] px-[1.863vw]"
           >
             <div className="mb-4">
               <Image
@@ -29,10 +29,10 @@ const CraftedForTutors: React.FC = () => {
                 className="mx-auto"
               />
             </div>
-            <p className="text-[1.25vw] font-semibold mb-2 text-center">
+            <p className="text-[1vw] font-semibold mb-3 text-center">
               {feature.title}
             </p>
-            <p className="text-[1vw] text-justify text-gray-700">
+            <p className="text-[0.833vw] text-gray-700">
               {feature.description}
             </p>
           </div>

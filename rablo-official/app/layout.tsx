@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Merriweather } from "next/font/google"
 import "./globals.css";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
 
 
 export const poppins = Poppins({
@@ -35,9 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.variable} ${merriweather.variable}`} suppressHydrationWarning>
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
