@@ -77,7 +77,7 @@ const Sidebar = () => {
             <Image
               src={item.icon}
               key={index}
-              className="w-[2.08vw] h-[2.08vw]"
+              className="w-[2.08vw] h-[2.08vw] cursor-pointer"
               width={0}
               height={0}
               alt=""
