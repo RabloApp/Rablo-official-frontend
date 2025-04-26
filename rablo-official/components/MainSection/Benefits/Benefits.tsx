@@ -24,7 +24,7 @@ const Benefits = () => {
       <div className='w-[87.5vw] h-[21.46vw] font-[Poppins] flex justify-between gap-[4.4vw] z-10'>
 
         {/* Box 1 */}
-        <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw] ml-[20px]'>
+        <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw] ml-[20px] cursor-pointer hover:shadow-2xl'>
           <h2 className='font-bold text-[1.7vw]'>For Tutors</h2>
           <div>
            {
@@ -41,7 +41,7 @@ const Benefits = () => {
         </div>
 
         {/* Box 2 */}
-        <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw]'>
+        <div className='w-[41.67vw] h-[21.46vw] rounded-[0.83vw] bg-white pt-[2.08vw] pb-[2.08vw] pl-[1.25vw] pr-[1.25vw] flex flex-col gap-[1.25vw] cursor-pointer hover:shadow-2xl' >
           <h2 className='font-bold text-[1.7vw]'>For Students</h2>
           <div>
             {

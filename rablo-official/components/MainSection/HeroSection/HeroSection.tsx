@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -24,13 +25,13 @@ const HeroSection = () => {
           batches effortlessly, and teach on your terms with the tools you need
           to succeed.
         </p>
-        <div className="h-[2.92vh] flex items-center gap-[24px] font-[Poppins] text-[0.833vw]">
-          <button className="w-[13.646vw] font-semibold nav-button1 p-[0.833vw]">
+        <div className="h-[2.92vh] flex items-center gap-[24px] font-[Poppins] text-[0.9vw]">
+          <Link href="#" className="w-[13.646vw] font-semibold nav-button1 p-[0.833vw]">
             Sign up for free
-          </button>
-          <button className="w-[13.646vw] nav-button2 font-semibold p-[0.833vw]">
+          </Link>
+          <Link href="/contact-us" className="w-[13.646vw] nav-button2 font-semibold p-[0.833vw]">
             Get a demo
-          </button>
+          </Link>
         </div>
       </div>
 

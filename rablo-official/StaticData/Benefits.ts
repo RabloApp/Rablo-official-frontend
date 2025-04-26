@@ -27,6 +27,6 @@ export const students = [
     },
     {
         label: "One on one support",
-        image: "/mainSection/images/Icon5.svg"
+        image: "/mainSection/images/Icon6.svg"
     },
 ]

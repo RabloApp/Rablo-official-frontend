@@ -57,13 +57,16 @@ const Footer = () => {
         <p className='text-sm '>ALL RIGHTS RESERVED.</p>
         <div className='flex gap-4'>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10 rounded-full flex items-center justify-center'>
-            <Image src="/Footer/images/logos_linkedIn.svg" alt="LinkedIn" width={25} height={25} />
+            <Image src="/Footer/images/Linkedin.svg" alt="LinkedIn" width={25} height={25} />
           </a>
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
-            <Image src="/Footer/images/logos_youtube.svg" alt="YouTube" width={30} height={30} />
+            <Image src="/Footer/images/Instagram.svg" alt="Instagram" width={30} height={30} />
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
-            <Image src="/Footer/images/logos_facebook.svg" alt="Facebook" width={28} height={28} />
+            <Image src="/Footer/images/X.svg" alt="X" width={28} height={28} />
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
+            <Image src="/Footer/images/Facebook.svg" alt="Facebook" width={28} height={28} />
           </a>
         </div>
       </div>
