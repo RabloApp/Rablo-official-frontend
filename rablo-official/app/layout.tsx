@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Poppins, Merriweather } from "next/font/google"
 import "./globals.css";
-
+import { Toaster } from "sonner";
 
 export const poppins = Poppins({
-    weight: ['400', '500', '600', '700'],
-    variable: '--font-poppins',
-    subsets: ['latin'],
-    display: 'swap',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
+  subsets: ['latin'],
+  display: 'swap',
 })
 
 export const merriweather = Merriweather({
@@ -46,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.variable} ${merriweather.variable}`} suppressHydrationWarning>
+        <Toaster richColors/>
         {children}
       </body>
     </html>
