@@ -22,8 +22,8 @@ const Footer = () => {
           <div>
             <h2 className='text-[1.25vw] font-[600] mb-[1.04vw]'>Company</h2>
             <ul className='space-y-[1.04vw] text-[1.04vw]'>
-              <li><Link href="/about-us" className='text-white hover:text-gray-300 transition-colors'>About us</Link></li>
-              <li><Link href="/blog" className='text-white hover:text-gray-300 transition-colors'>Blog</Link></li>
+              <li><Link href="/about-us" className='text-white hover:text-[black] transition-colors'>About us</Link></li>
+              <li><Link href="/blog" className='text-white hover:text-[black] transition-colors'>Blog</Link></li>
               
               
             </ul>
@@ -31,9 +31,9 @@ const Footer = () => {
           <div>
             <h2 className='text-[1.25vw] font-[600] mb-[1.04vw]'>Support</h2>
             <ul className='space-y-[1.04vw] text-[1.04vw]'>
-              <li><Link href="/help" className='text-white hover:text-gray-300 transition-colors'>Help</Link></li>
-              <li><Link href="/FAQ" className='text-white hover:text-gray-300 transition-colors'>FAQ</Link></li>
-              <li><Link href="/contact" className='text-white hover:text-gray-300 transition-colors'>contact</Link></li>
+              <li><Link href="/help" className='text-white hover:text-[black] transition-colors'>Help</Link></li>
+              <li><Link href="/FAQ" className='text-white hover:text-[black] transition-colors'>FAQ</Link></li>
+              <li><Link href="/contact" className='text-white hover:text-[black] transition-colors'>contact</Link></li>
               
             </ul>
           </div>
@@ -42,11 +42,11 @@ const Footer = () => {
           <div>
             <h2 className='text-[1.25vw] font-[600] mb-[1.04vw]'>Legal</h2>
             <ul className='space-y-[1.04vw] text-[1.04vw]'>
-              <li><Link href="/privacy" className='text-white hover:text-gray-300 transition-colors'>Privacy</Link></li>
-              <li><Link href="/terms-of-service" className='text-white hover:text-gray-300 transition-colors'>Terms of Service</Link></li>
+              <li><Link href="/privacy" className='text-white hover:text-[black] transition-colors'>Privacy</Link></li>
+              <li><Link href="/terms-of-service" className='text-white hover:text-[black] transition-colors'>Terms of Service</Link></li>
 
-              <li><Link href="/refund" className='text-white hover:text-gray-300 transition-colors'>Refund</Link></li>
-              <li><Link href="/disclaimer" className='text-white hover:text-gray-300 transition-colors'>Disclaimer</Link></li>
+              <li><Link href="/refund" className='text-white hover:text-[black] transition-colors'>Refund</Link></li>
+              <li><Link href="/disclaimer" className='text-white hover:text-[black] transition-colors'>Disclaimer</Link></li>
             </ul>
           </div>
         </div>
@@ -64,9 +64,9 @@ const Footer = () => {
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
             <Image src="/Footer/images/Instagram.svg" alt="Instagram" width={30} height={30} />
           </a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
+          {/* <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
             <Image src="/Footer/images/X.svg" alt="X" width={30} height={30} />
-          </a>
+          </a> */}
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10  rounded-full flex items-center justify-center'>
             <Image src="/Footer/images/Facebook.svg" alt="Facebook" width={30} height={30} />
           </a>

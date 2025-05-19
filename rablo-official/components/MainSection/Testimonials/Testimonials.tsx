@@ -21,16 +21,16 @@ const Testimonails = () => {
             return (
               <div
                 key={index}
-                className="group w-[25.69vw] flex items-center justify-center gap-[3.75vw]  rounded-[0.83vw] border-[#EBEFFF] border-[0.05vw]"
+                className="group w-[25.69vw] py-[0.83vw] flex items-start justify-center gap-[4vw]  rounded-[0.83vw] border-[#EBEFFF] border-[0.05vw]"
               >
                 {/* left */}
                 <div className="w-[12.76vw] h-[18.33vw] rounded-[1.04vw] overflow-hidden flex items-center justify-center ">
                   <Image
                     src={item.pic}
                     alt="Testimonial"
-                    width={240}
-                    height={352}
-                    className=" grayscale group-hover:grayscale-0 transition-all duration-100 "
+                    width={0}
+                    height={0}
+                    className=" w-[12.76vw] h-[18.33vw] grayscale group-hover:grayscale-0 transition-all duration-100 "
                   />
                 </div>
 
@@ -39,14 +39,16 @@ const Testimonails = () => {
                   <Image
                     src={"/Testimonials/images/quotes.svg"}
                     alt="quotes"
-                    width={42}
-                    height={28}
-                    className="w-[2.23vw]"
+                    width={0}
+                    height={0}
+                    className="w-[2.23vw] h-[1.46vw] ml-[0.48vw]"
                   ></Image>
-                  <p className="text-[1.04vw] font-[400] p-[0.52vw]">
+                  <div className="flex flex-col items-start justify-center gap-[2vw]">
+                    <p className="text-[1.04vw] font-[400] p-[0.52vw]">
                     {item.description}
                   </p>
                   <h2 className="text-[1.04vw] font-[400]">{item.title}</h2>
+                  </div>
                 </div>
               </div>
             );

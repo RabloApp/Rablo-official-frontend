@@ -1,6 +1,6 @@
 export const tutors = [
     {
-        name: "John Doe",
+        name: "Jahn Doe",
         occupation: "English Tutor",
         description: "Experienced tutor with an enthusiasm for literature.",
         image: "/mainSection/images/John-Doe.png",

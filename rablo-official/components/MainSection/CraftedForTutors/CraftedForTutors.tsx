@@ -18,21 +18,21 @@ const CraftedForTutors: React.FC = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-[#EFF1FC] flex flex-col gap-[1.458vw] rounded-2xl shadow-sm hover:shadow-md transition-all text-left py-[1.563vw] px-[1.863vw]"
+            className="bg-[#EFF1FC] flex flex-col gap-[1.46vw] rounded-2xl shadow-sm hover:shadow-md transition-all text-left p-[1.56vw]"
           >
             <div className="mb-4">
               <Image
                 src={feature.image}
                 alt={feature.title}
-                width={100}
-                height={100}
-                className="mx-auto"
+                width={0}
+                height={0}
+                className="mx-auto w-[6.25vw]"
               />
             </div>
-            <p className="text-[1vw] font-semibold mb-3 text-center">
+            <p className="text-[1.25vw] font-bold mb-3 text-center">
               {feature.title}
             </p>
-            <p className="text-[0.833vw] text-gray-700">
+            <p className="text-[0.9vw] font-normal text-gray-700">
               {feature.description}
             </p>
           </div>

@@ -17,8 +17,8 @@ const HeroSection = () => {
           }}
         ></div>
         <h1 className="font-[Merriweather] text-[4.17vw]">
-          Be <span className="font-semibold border-b-2">Discovered</span> by the
-          Right <span className="font-semibold border-b-2">Students</span>.
+          Be <span className="font-semibold border-b-[3px] inline-block leading-[0.9]">Discovered</span> by the
+          Right <span className="font-semibold border-b-[3px] inline-block leading-[0.9]">Students</span>.
         </h1>
         <p className="w-[48.96vw] text-[1.2vw] leading-[1.82vw] font-[Poppins]">
           Join a thriving network of dedicated tutors. Find students, organize
