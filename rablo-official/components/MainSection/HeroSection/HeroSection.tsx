@@ -39,7 +39,7 @@ const HeroSection = () => {
         <div className="w-full h-[16.67vw] flex gap-[2.08vw] ">
           <div className="w-[16.67vw] h-[16.67vw] rounded-tl-[8.33vw] rounded-bl-[8.33vw] bg-[#F2A6AC] flex items-center justify-center overflow-hidden">
             <Image
-              src="/mainSection/images/IMG1.svg"
+              src="/mainSection/images/image1.png"
               width={303.86}
               height={354}
               alt=""
@@ -48,7 +48,7 @@ const HeroSection = () => {
           </div>
           <div className="w-[16.67vw] h-[16.67vw] rounded-[2.08vw] bg-[#FFD39C]">
             <Image
-              src="/mainSection/images/IMG2.svg"
+              src="/mainSection/images/image2.png"
               width={303.86}
               height={354}
               alt=""
@@ -60,7 +60,7 @@ const HeroSection = () => {
         <div className="w-full h-[16.67vw] flex gap-[2.08vw] ">
           <div className="w-[16.67vw] h-[16.67vw] rounded-[2.08vw] bg-[#F2A6AC]">
             <Image
-              src="/mainSection/images/IMG3.svg"
+              src="/mainSection/images/image3.png"
               width={303.86}
               height={354}
               alt=""
@@ -69,7 +69,7 @@ const HeroSection = () => {
           </div>
           <div className="w-[16.67vw] h-[16.67vw] rounded-tr-[8.33vw] rounded-br-[8.33vw] bg-[#FFD39C] overflow-hidden">
             <Image
-              src="/mainSection/images/IMG4.svg"
+              src="/mainSection/images/image4.png"
               width={303.86}
               height={354}
               alt=""

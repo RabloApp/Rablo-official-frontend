@@ -315,20 +315,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 'use client';
 
 import { SendMail } from "@/lib/send-mail";

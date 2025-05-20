@@ -5,7 +5,7 @@ import Image from 'next/image'
  
 const Platform = ()  => {
   return (
-    <div className='w-full  py-[50px] relative'>
+    <div className='w-full  py-[2.6vw] relative'>
         {/* <div className="absolute left-[93.30vw] w-[5.21vw] h-[5.21vw] mt-[1vw]">
           <Image
             src="/Platform/images/Shapes.svg"

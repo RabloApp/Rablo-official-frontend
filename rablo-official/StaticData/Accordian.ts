@@ -2,7 +2,7 @@ const accordianData = [
   {
     title: "How do I get the Fee?",
     description:
-      "The fee is collected by the educator directly from the student. Rablo does not charge any commission on the fee collected.",
+      "Rablo’s default coverage includes tuition fee protection, which means the company will guarantee the educator for on-time fees credited directly to the account after completion of the cycle.",
   },
   {
     title: "How can I get students?",
