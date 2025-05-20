@@ -18,7 +18,7 @@ const Benefits = () => {
       </div>
 
       {/* Title */}
-      <h1 className='font-bold text-[2.6vw] font-[Merriweather] border-b-2 z-10'>Benefits of choosing Rablo</h1>
+      <h1 className='font-bold text-[2.6vw] font-[Merriweather] border-b-2 inline-block align-[0.1em] leading-none z-10 py-[0.20vw]'>Benefits of choosing Rablo</h1>
 
       {/* Boxes Container */}
       <div className='w-[87.5vw] h-[21.46vw] font-[Poppins] flex justify-between gap-[4.4vw] z-10'>

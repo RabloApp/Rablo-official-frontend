@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -9,7 +8,7 @@ const Header = () => {
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -26,7 +25,6 @@ const Header = () => {
                   href={item.path}
                   className="text-[1.1vw] font-medium hover:text-[#5271FF]"
                   target="_blank"
-                  
                 >
                   {item.label}
                 </a>
@@ -35,8 +33,10 @@ const Header = () => {
                   href={item.path || "#"}
                   className="text-[1.1vw] font-medium hover:text-[#5271FF]"
                   onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(item.component);
+                    if (item.component) {
+                      e.preventDefault();
+                      scrollToSection(item.component);
+                    }
                   }}
                 >
                   {item.label}

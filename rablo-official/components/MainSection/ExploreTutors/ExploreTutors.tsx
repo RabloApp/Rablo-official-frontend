@@ -24,18 +24,19 @@ const ExploreTutors = () => {
           />
         </div> */}
       {/* </div> */}
-      <div className="absolute top-[8vw] right-[0.8vw]">
+      <div className="absolute top-[14vw] right-[1.5vw]">
         <Image
-          src="/mainSection/images/Shapes.png"
+          src="/mainSection/images/Shapess.svg"
           alt="shapes"
-          width={80}
-          height={80}
+          className="w-[5.21vw] h-[5.21vw]"
+          width={0}
+          height={0}
         />
       </div>
       <div className="flex gap-[4.167vw] relative">
         {tutors.map((tutor, index) => (
-          <div key={index} className="w-[26.406vw] relative">
-            <div className="rounded-lg absolute top-0 right-0 w-[12.5vw] h-[12.5vw] overflow-hidden">
+          <div key={index} className="w-[26.406vw] relative ">
+            <div className="rounded-lg absolute top-0 right-0 w-[12.5vw] h-[12.5vw] hover:shadow-2xl overflow-hidden">
               <Image
                 src={tutor.image}
                 alt={tutor.name}
@@ -44,7 +45,7 @@ const ExploreTutors = () => {
               />
             </div>
 
-            <div className="h-[20.625vw] py-[2.083vw] px-[1.25vw] bg-[#EBEFFF] mt-[6.25vw] flex flex-col gap-[2vw] font-[Poppins]">
+            <div className="h-[20.625vw] py-[2.083vw] px-[1.25vw] rounded-[0.83vw] bg-[#EBEFFF] mt-[6.25vw] flex flex-col gap-[2vw] font-[Poppins] hover:shadow-2xl">
               <p className="text-[1.667vw] font-semibold">{tutor.name}</p>
               <p className="text-[1.25vw]">{tutor.occupation}</p>
               <Image

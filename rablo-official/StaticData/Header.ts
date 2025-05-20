@@ -27,8 +27,8 @@ export const navMidItems = [
   },
   {
     label: "About us",
-    component: "about",
-    path: "https://rablo.in/about-us/",
+    component: "",
+    path: "/aboutUs",
   },
 ];
 export const navRightItems = [

@@ -5,15 +5,15 @@ import Image from 'next/image'
  
 const Platform = ()  => {
   return (
-    <div className='w-full  py-[50px] relative'>
-        <div className="absolute left-[93.30vw] w-[5.21vw] h-[5.21vw] mt-[1vw]">
+    <div className='w-full  py-[2.6vw] relative'>
+        {/* <div className="absolute left-[93.30vw] w-[5.21vw] h-[5.21vw] mt-[1vw]">
           <Image
             src="/Platform/images/Shapes.svg"
             alt="Platform"
             fill
             className="object-contain"
           />
-        </div>
+        </div> */}
         <div className='flex flex-col justify-center items-center w-[87.5vw] mx-auto gap-[4.17vw] py-[1.19vw]'>
           <div className='flex flex-col items-center gap-[1.25vw]'>
             <div className='flex flex-col items-center gap-[0.83vw]'>
