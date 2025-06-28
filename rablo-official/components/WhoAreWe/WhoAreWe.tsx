@@ -31,7 +31,7 @@ const WhoAreWe = () => {
 
         <div className="flex justify-center">
           <div className="flex w-[64.11vw] h-[11.77vw]">
-            <div className="w-[20.47vw] h-[11.77vw] py-[3.23vw] px-[5.21vw] border-r-1 border-[#5271FF]">
+            <div className="w-[20.47vw] h-[11.77vw] py-[3.23vw] px-[5.21vw] border-r border-[#5271FF]">
               <div className="flex flex-col items-center gap-[0.4vw] ">
                 <div className="flex justify-center items-center  text-[#5271FF]">
                   <p className="font-[Merriweather] font-bold text-[2.4vw]">
@@ -39,13 +39,13 @@ const WhoAreWe = () => {
                   </p>
                   <p className="font-bold text-[2.8vw] mt-[-0.6vw]">+</p>
                 </div>
-                <p className="font-medium text-[1.15vw] text-[#9747FF]">
+                <p className="font-medium text-[1.15vw] text-[#9747FF] normal-case">
                   Enrolled Students
                 </p>
               </div>
             </div>
 
-            <div className="w-[20.47vw] h-[11.77vw] py-[3.23vw] px-[5.21vw] border-r-1 border-[#5271FF]">
+            <div className="w-[20.47vw] h-[11.77vw] py-[3.23vw] px-[5.21vw] border-r border-[#5271FF]">
               <div className="flex flex-col items-center gap-[0.4vw] ">
                 <div className="flex justify-center items-center  text-[#5271FF]">
                   <p className="font-[Merriweather] font-bold text-[2.4vw]">
@@ -53,22 +53,22 @@ const WhoAreWe = () => {
                   </p>
                   <p className="font-bold text-[2.8vw] mt-[-0.6vw]">+</p>
                 </div>
-                <p className="font-medium text-[1.15vw] text-[#9747FF]">
-                  Enrolled Students
+                <p className="font-medium text-[1.15vw] text-[#9747FF] normal-case">
+                  Tutors
                 </p>
               </div>
             </div>
 
-            <div className="w-[20.47vw] h-[11.77vw] py-[3.23vw] px-[5.21vw]">
-              <div className="flex flex-col items-center gap-[0.4vw] ">
+            <div className=" h-[11.77vw] py-[3.23vw] px-[5.21vw]">
+              <div className="flex flex-col justify-center items-center gap-[0.4vw] ">
                 <div className="flex justify-center items-center  text-[#5271FF]">
                   <p className="font-[Merriweather] font-bold text-[2.4vw]">
                     8
                   </p>
                   <p className="font-bold text-[2.8vw] mt-[-0.6vw]">+</p>
                 </div>
-                <p className="font-medium text-[1.15vw] text-[#9747FF]">
-                  Enrolled Students
+                <p className="font-medium text-[1.15vw] text-[#9747FF] normal-case">
+                  Modes & Categories
                 </p>
               </div>
             </div>

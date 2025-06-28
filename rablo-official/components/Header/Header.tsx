@@ -46,7 +46,25 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="flex justify-between items-center gap-[0.8vw]">
+        {/* <div className="flex justify-between items-center gap-[0.8vw]">
+          {navRightItems.map((item, index) => (
+            <div key={index}>
+              {item.button && (
+                <Link
+                  href={item.path}
+                  className={`cursor-pointer px-[2vw] font-semibold py-[0.5vw] text-[0.833vw] ${
+                    item.label === "Sign up" ? "nav-button2" : "nav-button1"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              )}
+            </div>
+          ))}
+        </div> */}
+      </div>
+
+ <div className="flex justify-center items-center gap-[0.8vw]">
           {navRightItems.map((item, index) => (
             <div key={index}>
               {item.button && (
@@ -62,7 +80,8 @@ const Header = () => {
             </div>
           ))}
         </div>
-      </div>
+
+
     </div>
   );
 };

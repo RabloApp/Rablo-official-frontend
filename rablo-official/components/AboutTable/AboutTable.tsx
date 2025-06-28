@@ -9,7 +9,7 @@ const AboutTable = () => {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-[1.1vw]">
             <thead>
-              <tr className="w-full text-[#5271FF] text-[1.35vw] font-[Merriweather] font-bold text-center">
+              <tr className="w-full text-[#5271FF] text-[1.35vw] font-[Merriweather] font-bold text-center ">
                 <th className="text-left text-[1.35vw] w-[36.93vw]"></th>
                 <th className="w-[12.03vw]">Rablo</th>
                 <th className="w-[12.03vw]">Your Local <br /> Tutor</th>
@@ -18,8 +18,8 @@ const AboutTable = () => {
             </thead>
             <tbody>
               {comparisonData.map((item, index) => (
-                <tr key={index} className={`w-full h-[3.07vw] text-center ${index % 2 !== 0 ? "bg-[#FFE1C25E]" : ""}`}>
-                  <td className="text-left py-[0.83vw] px-[1.04vw] border-r border-[#5271FF] text-[#3D3D3D]">
+                <tr key={index} className={`w-full h-[3.07vw] text-center ${index % 2 !== 0 ? "bg-[#FFE1C2]" : "bg-white"}`}>
+                  <td className="text-left py-[0.83vw] px-[1.04vw] border-r  border-[#5271FF] text-[#3D3D3D]">
                     {item.feature}
                   </td>
 

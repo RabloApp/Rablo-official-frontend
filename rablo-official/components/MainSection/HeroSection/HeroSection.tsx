@@ -58,7 +58,7 @@ const HeroSection = () => {
         </div>
 
         <div className="w-full h-[16.67vw] flex gap-[2.08vw] ">
-          <div className="w-[16.67vw] h-[16.67vw] rounded-[2.08vw] bg-[#F2A6AC]">
+          <div className="w-[16.67vw] h-[16.67vw] rounded-[2.08vw] bg-[#FFE07A]">
             <Image
               src="/mainSection/images/image3.png"
               width={303.86}
@@ -67,7 +67,7 @@ const HeroSection = () => {
               className="object-contain max-w-full max-h-full"
             />
           </div>
-          <div className="w-[16.67vw] h-[16.67vw] rounded-tr-[8.33vw] rounded-br-[8.33vw] bg-[#FFD39C] overflow-hidden">
+          <div className="w-[16.67vw] h-[16.67vw] rounded-tr-[8.33vw] rounded-br-[8.33vw] bg-[#C0C6E7] overflow-hidden">
             <Image
               src="/mainSection/images/image4.png"
               width={303.86}

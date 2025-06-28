@@ -54,7 +54,7 @@ const Footer = () => {
 
       {/* Social Media*/}
       <div className=' mx-auto flex justify-between items-center pt-5'>
-        <p className='text-sm '>ALL RIGHTS RESERVED.</p>
+        <p className='text-sm '>All rights reserved.</p>
         <div className='flex gap-4'>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className='w-10 h-10 rounded-full flex items-center justify-center'>
 
